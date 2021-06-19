@@ -6,10 +6,12 @@ use nals_todolist;
 
 
 INSERT INTO `status`(status_name)
+
 VALUES ("Planning", "Doing", "Complete");
 
 
 INSERT INTO `work`(work_name, starting_date, ending_date, status_id)
+
 VALUES 	("TASK 1", '2021-06-22', '2021-06-24', 1),
 		("TASK 2", '2021-06-13', '2021-06-14', 3),
 		("TASK 3", '2021-06-14', '2021-06-16', 3),
