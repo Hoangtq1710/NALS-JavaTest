@@ -4,8 +4,10 @@ SQL DATA
 
 use nals_todolist;
 
+
 INSERT INTO `status`(status_name)
 VALUES ("Planning", "Doing", "Complete");
+
 
 INSERT INTO `work`(work_name, starting_date, ending_date, status_id)
 VALUES 	("TASK 1", '2021-06-22', '2021-06-24', 1),
